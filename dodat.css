@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(127, 255, 212, 0.438);
+    font-weight:normal;
+}
+
+.box{
+    margin:auto;
+    max-width:600px;
+}
+@media(max-width:700px){
+    .box{
+    display:block;
+    }
+}
+.fototbl{
+    width:20px;
+    height:20px;
+}
